@@ -11,3 +11,12 @@ user_name = input("Please enter you name: ")
 print("\n\n Hello " + user_name + " how are you today?")
 
 
+student_name = input("Please put in your name: ")
+student_id = input("Please input student id: ")
+student_age = input("Please tell me your age: ")
+student_question = float(input("What is pie in decimal form: "))
+
+print("\n\nHello " + student_name + "\nyour student Id:" + student_id)
+print("you are " + student_age + " years old")
+print("Pie Answer: " , end=' ')
+print(student_question)
